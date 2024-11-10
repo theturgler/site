@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classroom Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Classroom Hub</div>
+    <nav>
+      <ul>
+        <li><a href="#vocabulary">Vocabulary Games</a></li>
+        <li><a href="#rules">Classroom Rules</a></li>
+        <li><a href="#skills">Skill Games</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Our Classroom Hub!</h1>
+    <p>Explore fun games, understand classroom expectations, and sharpen your skills!</p>
+    <a href="#vocabulary" class="cta-button">Get Started!</a>
+  </section>
+
+  <section id="vocabulary" class="section">
+    <h2>Vocabulary Games</h2>
+    <p>Learn new words while having fun! Practice your vocabulary with interactive games.</p>
+    <a href="#" class="section-button">Play Vocabulary Games</a>
+  </section>
+
+  <section id="rules" class="section">
+    <h2>Classroom Rules</h2>
+    <p>Respect, kindness, and learning together make our classroom a great place.</p>
+    <a href="#" class="section-button">View All Rules</a>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skill Games</h2>
+    <p>Challenge yourself with math puzzles, logic games, and more.</p>
+    <a href="#" class="section-button">Play Skill Games</a>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="#vocabulary">Vocabulary Games</a>
+      <a href="#rules">Classroom Rules</a>
+      <a href="#skills"
