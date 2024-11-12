@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.binder {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.cover {
+  width: 20%;
+  background-color: #999;
+  border-right: 3px solid #ccc;
+  border-radius: 8px 0 0 8px;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50px;
+}
+
+.tab {
+  height: 40px;
+  width: 100%;
+  border-radius: 0 8px 8px 0;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.tab:hover {
+  transform: scale(1.1);
+}
