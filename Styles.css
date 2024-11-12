@@ -17,6 +17,7 @@ body {
   background-color: #fff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+  position: relative;
 }
 
 .cover {
@@ -37,21 +38,43 @@ body {
 }
 
 .tabs {
+  position: absolute;
+  right: -50px; /* Position tabs to stick out */
+  top: 50px; /* Spacing from the top of the binder */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  width: 50px;
 }
 
 .tab {
   height: 40px;
-  width: 100%;
+  width: 80px;
   border-radius: 0 8px 8px 0;
   margin: 10px 0;
   cursor: pointer;
   transition: transform 0.2s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .tab:hover {
   transform: scale(1.1);
+}
+
+.tab:nth-child(1) {
+  background-color: #FFCC00;
+}
+
+.tab:nth-child(2) {
+  background-color: #FF6F61;
+}
+
+.tab:nth-child(3) {
+  background-color: #6B5B95;
+}
+
+.tab:nth-child(4) {
+  background-color: #88B04B;
+}
+
+.tab:nth-child(5) {
+  background-color: #92A8D1;
 }
